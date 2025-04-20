@@ -1,11 +1,15 @@
-import React from 'react'
+import React from "react";
+import Tarjeta from "./Tarjeta";
 
 
-const Main = () => {
+const Main = ({ persona }) => {
   return (
     <div>
-    </div>
-  )
-}
 
-export default Main
+      <Tarjeta persona={persona}></Tarjeta>
+      
+    </div>
+  );
+};
+
+export default Main;
