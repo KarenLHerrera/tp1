@@ -1,0 +1,10 @@
+.main {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px; 
+    text-align: center;
+  }
+.tarjeta{
+    border: 5px;
+    border-color: rgb(26, 1, 49);
+}

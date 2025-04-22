@@ -3,6 +3,7 @@ import Header from './Header'
 import Main from './Main'
 import Footer from './Footer'
 import fotoKaren from "../assets/foto.jpg"
+import '../css/Home.css'
 
 const Home = () => {
   const persona={
@@ -15,7 +16,7 @@ const Home = () => {
     mascotas:["Bayron","Baxter","Olivia"]
   }
   return (
-    <div>
+    <div className='home'>
       <Header></Header>
       <Main persona={persona}></Main>
       <Footer></Footer>
