@@ -48,3 +48,12 @@
   margin-bottom: 4px;          
   color: #333;
 }
+
+.presentacion{
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.descripcion{
+  font-weight: bold;
+}

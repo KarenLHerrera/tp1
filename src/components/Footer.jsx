@@ -5,6 +5,7 @@ import "../css/Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
+      <br />
       <h3>Redes Sociales</h3>
       <hr />
       <div class="contacto">
